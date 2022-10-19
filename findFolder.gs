@@ -2,7 +2,7 @@ function start() {
   Logger.log('hh');
   var sourceFolder = "foldername";
 
-  var main = "youremail";
+  var main = "myemail";
   var sharedFolders = DriveApp.searchFolders('sharedWithMe');
   while (sharedFolders.hasNext()) {
     var sFolder = sharedFolders.next();
