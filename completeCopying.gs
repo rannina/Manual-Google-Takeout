@@ -3,7 +3,7 @@ function start2() {
   var sourceFolder = "foldername";
   var targetFolder = "folderid";
   var trashyFolder = "folderid";
-  var main = "youremail";
+  var main = "myemail";
   var sharedFolders = DriveApp.searchFolders('sharedWithMe');
   while (sharedFolders.hasNext()) {
     var sFolder = sharedFolders.next();
